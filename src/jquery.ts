@@ -21,6 +21,7 @@ export const applyInitialStyles = (): void => {
         width: '320px',
         borderRadius: '20px',
         backgroundColor: black,
+        marginTop: '20px',
     });
 
     $('#display').css({
@@ -76,7 +77,7 @@ export const applyInitialStyles = (): void => {
     });
 
     $('button:hover').css({
-        filter: 'brightness(90%)',
+        filter: 'brightness(70%)',
     });
 
     $('button:active').css({
@@ -86,9 +87,7 @@ export const applyInitialStyles = (): void => {
     $('#zero').css({
         gridColumn: 'span 2',
         borderRadius: '32px',
-        paddingLeft: '28px',
-        textAlign: 'left',
+        textAlign: 'center',
     });
-
 
 }
