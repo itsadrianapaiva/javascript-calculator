@@ -95,7 +95,7 @@ const themes: Themes = {
     },
     function: {
       background: neonFunc,
-      text: neonText,
+      text: white,
     },
   },
 };
