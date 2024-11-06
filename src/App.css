@@ -44,7 +44,7 @@
   
   #expression {
     font-size: 24px;
-    color: var(--dark-gray);
+    color: var(--light-gray);
     margin-bottom: 8px;
   }
 
@@ -58,7 +58,7 @@
     gap: 12px;
   }
   
-  /* Uncommented and added the color styles */
+
   .light-gray {
     background-color: var(--light-gray);
   }
