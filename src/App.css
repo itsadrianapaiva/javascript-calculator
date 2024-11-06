@@ -1,0 +1,100 @@
+
+:root {
+    --black: #000000;
+    --neon-black: #1a1a1a;
+    --white: #ffffff;
+    --dark-gray: #333333;
+    --light-gray: #d4d4d2;
+    --yellow: #ff9500;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  #calculator {
+    padding: 20px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: var(--black);
+    margin-top: 20px;
+  }
+  
+  #display {
+    height: 120px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--neon-black);
+  }
+  
+  #answer {
+    font-size: 64px;
+    color: var(--white);
+    font-weight: 300;
+    line-height: 1;
+  }
+  
+  #expression {
+    font-size: 24px;
+    color: var(--dark-gray);
+    margin-bottom: 8px;
+  }
+
+  #title {
+   margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  
+  /* Uncommented and added the color styles */
+  .light-gray {
+    background-color: var(--light-gray);
+  }
+  
+  .dark-gray {
+    background-color: var(--dark-gray);
+    color: var(--white);
+  }
+  
+  .yellow {
+    background-color: var(--yellow);
+    color: var(--white);
+  }
+  
+  button {
+    height: 64px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: 500;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  button:hover {
+    filter: brightness(110%);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #zero {
+    grid-column: span 2;
+    border-radius: 32px;
+    text-align: center;
+  }
+
+ 
